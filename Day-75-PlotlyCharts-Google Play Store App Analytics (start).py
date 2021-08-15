@@ -1,3 +1,17 @@
+"""Analyzing Google Play Store Apps & Reviews dataset
+
+This 'script' analyzes a Google Play Store Apps dataset to answer questions such as:
+    Are paid or free apps more highly reviewed and which kind has more installations?
+    Which categories of apps are the most popular?
+    Which categories of apps are the highest grossing?
+    Should you choose a competitive category to release an app?
+The results of the data analysis are plotted using Plotly to create pie charts, bar charts, scatter plots, and box plots.
+
+This script requires that 'pandas' and 'Plotly' be installed within the Python
+environment you are running this script in.
+
+"""
+
 #!/usr/bin/env python
 # coding: utf-8
 
